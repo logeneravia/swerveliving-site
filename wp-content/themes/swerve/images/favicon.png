@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Swerve Living </title>
+
+<link rel="stylesheet" href="https://swerveliving.com/wp-content/themes/swerve/style.css" type="text/css" media="screen" />
+<link rel="shortcut icon" href="https://swerveliving.com/wp-content/themes/swerve/images/favicon.png" type="image/x-icon" />
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Swerve Living &raquo; concept Comments Feed" href="https://swerveliving.com/?feed=rss2&#038;page_id=9" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://swerveliving.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fswerveliving.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://swerveliving.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fswerveliving.com%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+
+<link rel="https://api.w.org/" href="https://swerveliving.com/index.php?rest_route=/" /><link rel="alternate" title="JSON" type="application/json" href="https://swerveliving.com/index.php?rest_route=/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://swerveliving.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel="canonical" href="https://swerveliving.com/" />
+<link rel='shortlink' href='https://swerveliving.com/' />
+ 
+</head>
+<body>
+
+<div id="containerforpage">
+	<div id="header">
+	<h1 id="logo">Swerve Living</h1>
+	<h3 id="slogan"></h3>
+    <h2 id="page-superhead">concept</h2>
+	</div>
+	<div id="mainmenubar">
+		<ul id="mainmenulist">
+		<li class="page_item page-item-9 current_page_item"><a href="https://swerveliving.com/" aria-current="page">concept</a></li>
+<li class="page_item page-item-96"><a href="https://swerveliving.com/?page_id=96">design principles</a></li>
+<li class="page_item page-item-146"><a href="https://swerveliving.com/?page_id=146">swerve living amenities</a></li>
+<li class="page_item page-item-10"><a href="https://swerveliving.com/?page_id=10">investment</a></li>
+<li class="page_item page-item-93 page_item_has_children"><a href="https://swerveliving.com/?page_id=93">plans</a></li>
+<li class="page_item page-item-8"><a href="https://swerveliving.com/?page_id=8">red deer</a></li>
+<li class="page_item page-item-42"><a href="https://swerveliving.com/?page_id=42">news</a></li>
+<li class="page_item page-item-104"><a href="https://swerveliving.com/?page_id=104">about us</a></li>
+<li class="page_item page-item-2"><a href="https://swerveliving.com/?page_id=2">contact us</a></li>
+		</ul>
+	</div>	<div id="wrapper" class="clearfix" > 
+		<div id="twocols" class="clearfix">
+			<div id="leftcol">
+			<div class="widget"><h3>Search</h3><form role="search" method="get" id="searchform" class="searchform" action="https://swerveliving.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div>				
+				<div id="sidebarmenu">
+				</div>			</div>
+			<div id="maincol">
+								<h3 class="page-title">concept</h3>
+				<div class="page-content">
+					<p><strong>Swerve Living: a lifestyle choice for the urbanite.</strong></p>
+<p>There’s nothing else like Swerve in Red Deer. Our unique vision incorporates green design, urban style, and intelligent use of space.</p>
+<p>Swerve Living is a residential and commercial building in the heart of downtown Red Deer (see site map). Swerve contains 32 single floor suites, 4 townhouse lofts, and 5 spaces for food-related shops on the main floor.</p>
+<div id="attachment_33" style="width: 640px" class="wp-caption alignnone"><a href="https://swerveliving.com/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve.jpg"><img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-33" class="size-full wp-image-33 " title="South West Corner Elevation Swerve Living" src="https://swerveliving.com/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve.jpg" alt="South West Corner Elevation Swerve Living" width="630" height="485" srcset="https://swerveliving.com/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve.jpg 700w, https://swerveliving.com/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve-300x231.jpg 300w" sizes="(max-width: 630px) 100vw, 630px" /></a><p id="caption-attachment-33" class="wp-caption-text">South West Corner Elevation Swerve Living</p></div>
+<p>The focus at Swerve is on urban living. Most of all, it’s about you, and how you choose to spend your time. Working and playing where you live. Walking, biking, and using public transit. It’s a vehicle-free lifestyle for the most part, which means more money in your pocket. And for the times you do need a set of wheels, there’s the Swerve Car Program.</p>
+<p>Swerve is a lifestyle choice – a statement about your values, about how you want your life to reflect those values. It’s not for everyone. It could be amazing for you.</p>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+<div id="footer">
+
+	</div>
+</div>
+
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl496669'},{'dcenter':'p3'},{'cp_id':'9107499'},{'cp_cache':''},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>

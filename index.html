@@ -3,163 +3,65 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Swerve Living — Downtown Red Deer</title>
-<meta name="description" content="Swerve Living is a residential and commercial building in the heart of downtown Red Deer.">
+<title>Swerve Living</title>
+<link rel="icon" href="/wp-content/themes/swerve/images/favicon.png">
 <style>
-  :root {
-    --olive: #a8a338;
-    --olive-dark: #7d7828;
-    --brick: #8f3b2c;
-    --ink: #2b2b28;
-    --soft: #6b6a62;
-    --paper: #fdfdfb;
-    --band: #f4f3ec;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    color: var(--ink);
-    background: var(--paper);
-    line-height: 1.65;
-    font-size: 17px;
-  }
-  h1, h2, h3, .pullquote { font-family: Georgia, "Times New Roman", serif; font-weight: normal; }
-  .wrap { max-width: 940px; margin: 0 auto; padding: 0 24px; }
-
-  header { padding: 28px 0 20px; border-bottom: 4px solid var(--olive); background: #fff; }
-  header .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  header img { display: block; width: 260px; max-width: 70vw; height: auto; }
-  header .locale { color: var(--soft); font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
-
-  .hero { background: var(--band); padding: 48px 0 0; }
-  .hero .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding-bottom: 48px; }
-  .hero h1 { font-size: clamp(28px, 4.5vw, 40px); line-height: 1.2; color: var(--brick); margin-bottom: 18px; }
-  .hero p { margin-bottom: 14px; }
-  .hero .lede { font-size: 19px; }
-  .hero figure img { width: 100%; height: auto; display: block; border-radius: 4px; box-shadow: 0 10px 30px rgba(43,43,40,0.18); }
-  .hero figcaption { font-size: 13px; color: var(--soft); margin-top: 10px; text-align: right; }
-
-  .facts { background: var(--brick); color: #fdf6f2; }
-  .facts .wrap { padding: 22px 24px; text-align: center; font-family: Georgia, serif; font-size: clamp(17px, 2.4vw, 21px); }
-
-  section.features { padding: 56px 0 24px; }
-  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
-  .cols h2 { font-size: 22px; color: var(--olive-dark); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--olive); }
-  .cols p { margin-bottom: 12px; font-size: 16px; }
-
-  .pullquote { background: var(--band); margin: 40px 0 0; padding: 52px 0; }
-  .pullquote blockquote { max-width: 760px; margin: 0 auto; padding: 0 24px; font-size: clamp(20px, 3vw, 26px); line-height: 1.5; color: var(--ink); text-align: center; }
-  .pullquote blockquote::before { content: "“"; color: var(--olive); font-size: 1.6em; line-height: 0; vertical-align: -0.25em; margin-right: 2px; }
-
-  .streetband { display: block; width: 100%; }
-  .streetband { padding: 24px 0 0; }
-  .streetband img { width: 100%; max-width: 620px; height: auto; display: block; margin: 0 auto; }
-
-  .community { padding: 52px 0; text-align: center; }
-  .community p { max-width: 700px; margin: 0 auto; font-size: 18px; }
-  .community h2 { font-size: 24px; color: var(--brick); margin-bottom: 14px; }
-
-  .contact { padding: 0 0 56px; }
-  .contact .placeholder {
-    border: 2px dashed var(--olive);
-    border-radius: 6px;
-    background: #fbfbf3;
-    padding: 28px;
-    max-width: 640px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .contact .placeholder strong { display: block; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--olive-dark); margin-bottom: 10px; }
-  .contact .placeholder p { font-size: 15px; color: var(--soft); }
-
-  footer { background: var(--ink); color: #cfcec5; padding: 26px 0; font-size: 14px; }
-  footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-
-  @media (max-width: 760px) {
-    .hero .wrap { grid-template-columns: 1fr; }
-    .cols { grid-template-columns: 1fr; gap: 28px; }
-    header .wrap { justify-content: center; text-align: center; }
-  }
+:root{--olive:#a8a338;--olive-dark:#7d7828;--brick:#8f3b2c;--ink:#2b2b28;--soft:#6b6a62;--paper:#fdfdfb;--band:#f4f3ec}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;font-size:17px}
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;font-weight:normal;line-height:1.25}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.site{padding:22px 0 16px;background:#fff}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+header.site img{display:block;width:240px;max-width:70vw;height:auto}
+header.site .locale{color:var(--soft);font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+nav.menu{background:var(--olive);}
+nav.menu ul{list-style:none;display:flex;flex-wrap:wrap;gap:0;max-width:960px;margin:0 auto;padding:0 12px}
+nav.menu a{display:block;padding:10px 12px;color:#fff;text-decoration:none;font-size:15px;text-transform:lowercase}
+nav.menu a:hover,nav.menu a[aria-current]{background:var(--olive-dark)}
+main{padding:36px 0 48px}
+main h1{font-size:clamp(26px,4vw,36px);color:var(--brick);margin-bottom:18px;text-transform:lowercase}
+.content p{margin:0 0 14px}
+.content ul,.content ol{margin:0 0 14px 22px}
+.content h2,.content h3,.content h4{color:var(--olive-dark);margin:22px 0 10px}
+.content img{max-width:100%;height:auto}
+.content a{color:var(--brick)}
+.content .alignleft{float:left;margin:4px 18px 12px 0}
+.content .alignright{float:right;margin:4px 0 12px 18px}
+.content .aligncenter{display:block;margin:12px auto}
+.content .wp-caption{max-width:100%}
+.content .wp-caption-text{font-size:13px;color:var(--soft)}
+.content::after{content:"";display:block;clear:both}
+.subnav{background:var(--band);border-left:4px solid var(--olive);padding:12px 16px;margin:0 0 22px}
+.subnav ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px}
+.subnav a{color:var(--olive-dark)}
+.post{border-top:1px solid #e3e2da;padding-top:18px;margin-top:18px}
+.post .date{color:var(--soft);font-size:14px;margin-bottom:6px}
+footer.site{background:var(--ink);color:#cfcec5;padding:22px 0;font-size:14px}
+@media (max-width:640px){.content .alignleft,.content .alignright{float:none;margin:10px 0}}
 </style>
 </head>
 <body>
+<header class="site"><div class="wrap">
+  <a href="/"><img src="/img/swerve-logo.jpg" alt="Swerve Living — earth friendly, people friendly, community friendly" width="420" height="232"></a>
+  <div class="locale">Downtown Red Deer, Alberta</div>
+</div></header>
+<nav class="menu" aria-label="Main"><ul><li><a href="/" aria-current=page>concept</a></li><li><a href="/design-principles/">design principles</a></li><li><a href="/swerve-living-amenities/">swerve living amenities</a></li><li><a href="/investment-opportunity/">investment</a></li><li><a href="/plans/">plans</a></li><li><a href="/red-deer/">red deer</a></li><li><a href="/news/">news</a></li><li><a href="/about-us/">about us</a></li><li><a href="/contact-us/">contact us</a></li></ul></nav>
+<main><div class="wrap">
+  <h1>concept</h1>
+  
+  
+  <div class="content">
+<p><strong>Swerve Living: a lifestyle choice for the urbanite.</strong></p>
+<p>There’s nothing else like Swerve in Red Deer. Our unique vision incorporates green design, urban style, and intelligent use of space.</p>
+<p>Swerve Living is a residential and commercial building in the heart of downtown Red Deer (see site map). Swerve contains 32 single floor suites, 4 townhouse lofts, and 5 spaces for food-related shops on the main floor.</p>
+<div id="attachment_33" style="width: 640px" class="wp-caption alignnone"><a href="/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-33" class="size-full wp-image-33 " title="South West Corner Elevation Swerve Living" src="/wp-content/uploads/2010/01/South-West-Corner-Elevation-Swerve.jpg" alt="South West Corner Elevation Swerve Living" width="630" height="485" /></a><p id="caption-attachment-33" class="wp-caption-text">South West Corner Elevation Swerve Living</p></div>
+<p>The focus at Swerve is on urban living. Most of all, it’s about you, and how you choose to spend your time. Working and playing where you live. Walking, biking, and using public transit. It’s a vehicle-free lifestyle for the most part, which means more money in your pocket. And for the times you do need a set of wheels, there’s the Swerve Car Program.</p>
+<p>Swerve is a lifestyle choice – a statement about your values, about how you want your life to reflect those values. It’s not for everyone. It could be amazing for you.</p>
 
-<header>
-  <div class="wrap">
-    <img src="img/swerve-logo.jpg" alt="Swerve Living — earth friendly, people friendly, community friendly" width="420" height="232">
-    <div class="locale">Downtown Red Deer, Alberta</div>
   </div>
-</header>
-
-<div class="hero">
-  <div class="wrap">
-    <div>
-      <h1>A lifestyle choice for the urbanite.</h1>
-      <p class="lede">There&rsquo;s nothing else like Swerve in Red Deer. Our unique vision incorporates green design, urban style, and intelligent use of space.</p>
-      <p>Swerve Living is a residential and commercial building in the heart of downtown Red Deer.</p>
-      <p>The focus at Swerve is on urban living. Most of all, it&rsquo;s about you, and how you choose to spend your time. Working and playing where you live. Walking, biking, and using public transit.</p>
-    </div>
-    <figure>
-      <img src="img/southwest-elevation.jpg" alt="South-west corner elevation of the Swerve Living building" width="700" height="539">
-      <figcaption>South-west corner elevation</figcaption>
-    </figure>
-  </div>
-</div>
-
-<div class="facts">
-  <div class="wrap">earth friendly &nbsp;&middot;&nbsp; people friendly &nbsp;&middot;&nbsp; community friendly</div>
-</div>
-
-<section class="features">
-  <div class="wrap cols">
-    <div>
-      <h2>The building</h2>
-      <p>Swerve Living is situated on the very edge of Red Deer&rsquo;s historic downtown area. Whether people are entering or leaving the downtown core, Swerve will leave an impression on all who pass by.</p>
-      <p>The well being of the residents is our primary concern.</p>
-    </div>
-    <div>
-      <h2>The suites</h2>
-      <p>Each suite has natural light, is well-ventilated and wired for cable television and high-speed Internet and is equipped with modern appliances.</p>
-      <p>Sliding walls and pocket doors free up valuable wall space for art and shelving. Each suite has a balcony which opens to the outside revealing great views of the river and the valley.</p>
-    </div>
-    <div>
-      <h2>Downtown Red Deer</h2>
-      <p>Swerve Living is located in beautiful downtown Red Deer, close to supermarkets, public transportation, health and social services, the city&rsquo;s many parks and trails and cultural amenities.</p>
-      <p>You can visit your friends in the &rsquo;burbs any time you want, but you&rsquo;ll be glad to return home where everything you need is at your doorstep, overflowing with character.</p>
-    </div>
-  </div>
-</section>
-
-<div class="pullquote">
-  <blockquote>Swerve is a lifestyle choice &mdash; a statement about your values, about how you want your life to reflect those values. It&rsquo;s not for everyone. It could be amazing for you.</blockquote>
-</div>
-
-<div class="streetband">
-  <img src="img/street-elevation.jpg" alt="Street elevation drawing of the Swerve Living building" width="435" height="232">
-</div>
-
-<section class="community">
-  <div class="wrap">
-    <h2>A sense of community</h2>
-    <p>Swerve Living&rsquo;s personal dwelling spaces have been designed to encourage tenants to interact with one another, enhancing their overall sense of community and belonging.</p>
-  </div>
-</section>
-
-<section class="contact">
-  <div class="wrap">
-    <div class="placeholder">
-      <strong>[Contact block &mdash; Chip to confirm]</strong>
-      <p>The archived contact details are from an earlier era of the project and may be out of date. Current rental-management and contact information to be confirmed before this draft goes live in earnest.</p>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div>&copy; Swerve Living &mdash; Red Deer, Alberta</div>
-    <div>Draft brochure page</div>
-  </div>
-</footer>
-
+  
+</div></main>
+<footer class="site"><div class="wrap">&copy; Swerve Living &mdash; Red Deer, Alberta</div></footer>
 </body>
 </html>
